@@ -1,0 +1,16 @@
+{
+    "name": "fsmoak/phpstan-zf1-autoloader-test",
+    "description": "Test Case for PHPStan using ZendFramework1 Autoloader Fallback",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src"
+        }
+    },
+    "require": {
+        "shardj/zf1-future": "^1.19"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.99"
+    }
+}
